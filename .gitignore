@@ -1,0 +1,49 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake (generated inside build/)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Compiled examples
+peripheral
+central
+dual_role
+
+# Compiled tests
+test_advertise
+test_connection
+test_gatt_server
+test_watchdog
+
+# Yocto build
+tmp/
+sstate-cache/
+
+# ccache
+.ccache/
+
+# clangd
+compile_commands.json
+.cache/
